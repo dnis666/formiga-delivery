@@ -1,0 +1,13 @@
+.home {
+    padding: 5.3125rem /* 85/16 */ 0;
+    background-color: #fafafa;
+}
+
+
+.home-container {
+    max-width: 100vh;
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+    flex-direction: column;
+}

@@ -1,0 +1,45 @@
+.slide-categories {
+    max-width: 100vw;
+    overflow-x: scroll;
+    margin: .9375rem /* 15/16 */ 0 .9375rem /* 15/16 */ 2.125rem /* 34/16 */;
+}
+
+.categories-container {
+    display: flex;
+    width: 200%;
+}
+
+.farmacia-category {
+    height: 150px;
+    width: 107px;
+    border-radius: 20px;
+    background-image: url(../assets/pharmacy-categorie.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin: 0 .3125rem /* 5/16 */;
+    position: relative;
+}
+
+.farmacia-category::after {
+    height: 60px;
+    width: 107px;
+    border-radius: 0 0 20px 20px;
+    background-color: #1AE5BE;
+    position: absolute;
+    content: '';
+    bottom: 0;
+}
+
+.farmacia-category:first-child {
+    margin: 0 .3125rem /* 5/16 */ 0 0;
+}
+
+.farmacia-category p {
+    position: absolute;
+    z-index: 1;
+    right: 17%;
+    bottom: 16%;
+    font-weight: 900;
+    color: #0635C9;
+}

@@ -1,0 +1,39 @@
+.menu {
+    position: fixed;
+    border-top: 3px solid #1AE5BE;
+    min-height: 62px;
+    width: 100%;
+    bottom: 0;
+    background-color: #ffffff;
+    display: flex;
+    align-items: center;
+}
+
+.menu-container {
+    width: 82%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.profile {
+    display: flex;
+    flex: 1;
+}
+.profile img {
+    max-height: 2rem /* 32/16 */;
+}
+.search {
+    display: flex;
+    flex: 1;
+}
+.search img {
+    max-height: 2rem /* 32/16 */;
+}
+.menu-icon {
+    display: flex;
+    flex: 1;
+}
+.menu-icon img {
+    max-height: 2rem /* 32/16 */;
+}

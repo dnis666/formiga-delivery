@@ -1,0 +1,21 @@
+.banner-home {
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+    border-radius: 1.25rem /* 20/16 */;
+    height: 150px;
+    max-width: 82%;
+    align-self: center;
+}
+
+.banner-img {
+    display: flex;
+    min-width: 100%;
+    height: auto;
+    align-items: center;
+}
+
+.banner-principal {
+    width: 100%;
+    height: auto;
+}
