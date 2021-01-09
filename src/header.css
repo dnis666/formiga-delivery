@@ -1,9 +1,14 @@
+.header-message {
+    position: fixed;
+    z-index: 99;
+    width: 100%;
+}
+
 .header {
     min-height: 5rem /* 80/16 */;
     background-color: #0635C9;
     border-radius: 0 0 2.5rem /* 40/16 */ 2.5rem /* 40/16 */;
     width: 100%;
-    position: fixed;
     display: flex;
     align-items: center;
 }

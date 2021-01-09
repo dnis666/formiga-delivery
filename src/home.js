@@ -2,6 +2,7 @@ import './home.css'
 
 import BannerHome from './componetsHome/bannerHome'
 import SlideCategories from './componetsHome/slideCategories'
+import ProductSpotlight from './componetsHome/productSpotlight'
 
 function Home() {
   return (
@@ -9,6 +10,8 @@ function Home() {
       <div className="home-container">
 				<BannerHome />
         <SlideCategories />
+        <ProductSpotlight />
+        <BannerHome />
 			</div>
     </div>
   );

@@ -1,0 +1,28 @@
+.container-spotlight {
+    background-color: #D4E1F4;
+    width: 82%;
+    height: 12.5rem /* 200/16 */;
+    display: flex;
+    border-radius: 1.25rem /* 20/16 */;
+    align-self: center;
+    justify-content: center;
+    position: relative;
+    margin: 0 0 1.25rem /* 20/16 */ 0;
+}
+
+.icon-spotlight {
+    background-color: #fafafa;
+    height: 50px;
+    width: 50px;
+    border-radius: 50px;
+    position: absolute;
+    top: -25px;
+    z-index: 0;
+}
+
+.icon-descont {
+    position: absolute;
+    max-width: 65%;
+    left: 8px;
+    top: 9px;
+}

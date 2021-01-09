@@ -1,7 +1,8 @@
 .slide-categories {
     max-width: 100vw;
     overflow-x: scroll;
-    margin: .9375rem /* 15/16 */ 0 .9375rem /* 15/16 */ 2.125rem /* 34/16 */;
+    margin: .9375rem /* 15/16 */ 0 1.625rem /* 26/16 */ 2.375rem /* 38/16 */;
+    z-index: 1;
 }
 
 .categories-container {
